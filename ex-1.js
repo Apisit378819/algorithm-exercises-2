@@ -1,5 +1,18 @@
 function fizzBuzz(n) {
   //Start coding here
+  const result = [];
+  for (let i = 0; i <= n; i++) {
+    if (i % 3 === 0) {
+      result.push("Fizz");
+    } else if (i % 5 === 0) {
+      result.push("Buzz");
+    } else if (i % 15 === 0) {
+      result.push("FizzBuzz");
+    } else {
+      result.push(i.toString());
+    }
+  }
+  return result;
 }
 
 let result1 = fizzBuzz(3);

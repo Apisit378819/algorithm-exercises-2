@@ -1,5 +1,6 @@
 function countPositivesSumNegatives(input) {
   //Start coding here
+  
 }
 
 let result1 = countPositivesSumNegatives([
